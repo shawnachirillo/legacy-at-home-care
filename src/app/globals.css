@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-lora: "Lora", serif;
+  --font-work: "Work Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #F7F3EB;
+  color: #344033;
+  font-family: var(--font-work);
+}
+
+.font-serif {
+  font-family: var(--font-lora);
+}
+
+.font-sans {
+  font-family: var(--font-work);
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  background: #E6D19A;
+  color: #344033;
+}
