@@ -6,7 +6,7 @@ export default function Benefits() {
   ];
 
   return (
-    <section className="bg-evergreen px-6 py-24 text-white">
+    <section className="bg-[#4D97E8] px-6 py-24 text-white">
       <div className="mx-auto max-w-7xl">
         <h2 className="max-w-3xl font-serif text-4xl font-semibold leading-tight md:text-5xl">
           For families who need help, but still want home to feel like home.

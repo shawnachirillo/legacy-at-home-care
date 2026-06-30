@@ -12,7 +12,7 @@ export default function ContactPage() {
             title="Start with a simple care conversation."
             text="Tell us what is happening at home and what kind of support your family may need."
           />
-          <div className="mt-10 rounded-3xl bg-linen p-8 font-sans leading-8 text-muted">
+          <div className="mt-10 rounded-3xl bg-white p-8 font-sans leading-8 text-[#4D97E8]">
             <p><strong className="text-ink">Phone:</strong> {site.phone}</p>
             <p><strong className="text-ink">Email:</strong> {site.email}</p>
             <p><strong className="text-ink">Service Area:</strong> {site.serviceArea}</p>

@@ -12,9 +12,9 @@ export default function ServicesPage() {
         />
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           {services.map((service) => (
-            <article key={service.title} className="rounded-3xl bg-linen p-8">
-              <h2 className="font-serif text-3xl font-semibold text-evergreen">{service.title}</h2>
-              <p className="mt-4 font-sans leading-7 text-muted">{service.description}</p>
+            <article key={service.title} className="rounded-3xl bg-white p-8">
+              <h2 className="font-serif text-3xl font-semibold text-[#4D97E8]">{service.title}</h2>
+              <p className="mt-4 font-sans leading-7 text-[#4D97E8]">{service.description}</p>
             </article>
           ))}
         </div>

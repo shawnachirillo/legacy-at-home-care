@@ -13,8 +13,8 @@ html {
 
 body {
   margin: 0;
-  background: #F7F3EB;
-  color: #344033;
+  background: white;
+  color: #4D97E8;
   font-family: var(--font-work);
 }
 
@@ -31,6 +31,6 @@ a {
 }
 
 ::selection {
-  background: #E6D19A;
-  color: #344033;
+  background: white;
+  color:#4D97E8;
 }

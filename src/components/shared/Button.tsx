@@ -12,8 +12,8 @@ export default function Button({
 }) {
   const classes =
     variant === "primary"
-      ? "bg-evergreen text-white hover:bg-[#3d4a3d]"
-      : "border border-wood/40 bg-cream text-evergreen hover:bg-linen";
+      ? "bg-[#4D97E8] text-white hover:bg-[#3d4a3d]"
+      : "border border-[#4D97E8]/40 bg-white text-[#4D97E8] hover:bg-white";
 
   return (
     <Link

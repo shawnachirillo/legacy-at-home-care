@@ -9,7 +9,7 @@ export default function Approach() {
       />
 
       <div>
-        <p className="font-sans text-sm font-semibold uppercase tracking-[0.28em] text-wood">
+        <p className="font-sans text-sm font-semibold uppercase tracking-[0.28em] text-[#4D97E8]">
           Our Approach
         </p>
 
@@ -17,7 +17,7 @@ export default function Approach() {
           Familiar care, built around the person.
         </h2>
 
-        <div className="mt-8 space-y-6 font-sans text-lg leading-8 text-muted">
+        <div className="mt-8 space-y-6 font-sans text-lg leading-8 text-[#4D97E8]">
           <p>
             We begin by understanding your loved one’s routines, preferences,
             personality, home environment, and family concerns.

@@ -2,31 +2,35 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./src/app/**/*.{js,ts,jsx,tsx}",
-    "./src/components/**/*.{js,ts,jsx,tsx}",
-    "./src/data/**/*.{js,ts,jsx,tsx}"
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/data/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/lib/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
-        cream: "#F7F3EB",
-        linen: "#EFE7D8",
-        sunlight: "#E6D19A",
-        sage: "#A6B09B",
-        wood: "#8C6A4A",
-        evergreen: "#4B5A4B",
-        ink: "#344033",
-        muted: "#5F675D"
+        linen: "#FFFDF6",
+        cream: "#FFFDF6",
+        lime: "#9CCB3B",
+        lemon: "#F4D55B",
+        honey: "#C8891D",
+        sky: "#4D97E8",
+        wicker: "#8F5C36",
+        evergreen: "#2F4A35",
+        ink: "#26382B",
+        muted: "#5F675D",
+        border: "#E8E0D0",
       },
       boxShadow: {
-        soft: "0 24px 80px rgba(52, 64, 51, 0.14)"
+        soft: "0 24px 80px rgba(38, 56, 43, 0.12)",
       },
       borderRadius: {
-        soft: "2rem"
-      }
-    }
+        soft: "2rem",
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 };
 
 export default config;

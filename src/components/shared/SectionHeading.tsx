@@ -9,7 +9,7 @@ export default function SectionHeading({ eyebrow, title, text, centered = false 
   return (
     <div className={centered ? "mx-auto max-w-3xl text-center" : "max-w-3xl"}>
       {eyebrow && (
-        <p className="font-sans text-sm font-semibold uppercase tracking-[0.25em] text-wood">
+        <p className="font-sans text-sm font-semibold uppercase tracking-[0.25em] text-[#4D97E8]">
           {eyebrow}
         </p>
       )}

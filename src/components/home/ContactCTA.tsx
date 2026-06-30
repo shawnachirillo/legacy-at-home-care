@@ -3,9 +3,9 @@ import ContactForm from "@/components/shared/ContactForm";
 export default function ContactCTA() {
   return (
     <section className="px-6 py-24">
-      <div className="mx-auto grid max-w-7xl gap-10 rounded-[2rem] bg-linen p-8 shadow-soft md:grid-cols-2 md:p-12">
+      <div className="mx-auto grid max-w-7xl gap-10 rounded-[2rem] bg-white p-8 shadow-soft md:grid-cols-2 md:p-12">
         <div>
-          <p className="font-sans text-sm font-semibold uppercase tracking-[0.28em] text-wood">
+          <p className="font-sans text-sm font-semibold uppercase tracking-[0.28em] text-[#4D97E8]">
             Start here
           </p>
 
@@ -13,7 +13,7 @@ export default function ContactCTA() {
             Let’s talk about what kind of care feels right.
           </h2>
 
-          <p className="mt-6 font-sans text-lg leading-8 text-muted">
+          <p className="mt-6 font-sans text-lg leading-8  text-[#4D97E8]">
             Tell us what your family needs. We’ll listen first, then help you
             understand what level of support may make sense.
           </p>

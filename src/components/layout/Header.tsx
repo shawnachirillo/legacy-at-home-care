@@ -6,10 +6,10 @@ export default function Header() {
     <header className="absolute top-0 left-0 right-0 z-50">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-8">
         <Link href="/" className="block">
-          <p className="font-serif text-3xl font-semibold tracking-wide text-evergreen">
+          <p className="font-serif text-3xl font-semibold tracking-wide text-[#4D97E8]">
             Legacy
           </p>
-          <p className="-mt-1 font-sans text-xs uppercase tracking-[0.32em] text-wood">
+          <p className="-mt-1 font-sans text-xs uppercase tracking-[0.32em] text-[#4D97E8]">
             At Home Care
           </p>
         </Link>
@@ -19,7 +19,7 @@ export default function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className="transition hover:text-wood"
+              className="transition hover:text-[#4D97E8]"
             >
               {item.label}
             </Link>
@@ -28,7 +28,7 @@ export default function Header() {
 
         <Link
           href="/contact"
-          className="rounded-full bg-evergreen px-5 py-3 font-sans text-sm font-semibold text-white shadow-sm transition hover:bg-[#3d4a3d]"
+          className="rounded-full bg-[#4D97E8] px-5 py-3 font-sans text-sm font-semibold text-white shadow-sm transition hover:bg-[#3d4a3d]"
         >
           Get Care
         </Link>

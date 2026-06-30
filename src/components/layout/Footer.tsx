@@ -2,10 +2,10 @@ import { site } from "@/lib/constants";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-[#ded4c3] bg-cream px-6 py-12">
+    <footer className="border-t border-[#ded4c3] bg-white px-6 py-12">
       <div className="mx-auto flex max-w-7xl flex-col justify-between gap-8 md:flex-row">
         <div>
-          <p className="font-serif text-3xl font-semibold text-evergreen">
+          <p className="font-serif text-3xl font-semibold text-[#4D97E8]">
             {site.name}
           </p>
           <p className="mt-2 font-sans text-sm text-muted">
