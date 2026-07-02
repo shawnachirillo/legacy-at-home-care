@@ -1,25 +1,86 @@
-export default function Benefits() {
-  const items = [
-    ["Comfort", "Support that respects familiar routines."],
-    ["Trust", "Caregivers who feel steady, kind, and reliable."],
-    ["Relief", "Peace of mind for family caregivers who need rest."]
-  ];
+import Image from "next/image";
 
+export default function Benefits() {
   return (
-    <section className="bg-[#4D97E8] px-6 py-24 text-white">
-      <div className="mx-auto max-w-7xl">
-        <h2 className="max-w-3xl font-serif text-4xl font-semibold leading-tight md:text-5xl">
-          For families who need help, but still want home to feel like home.
+    <section className="bg-[#FFFDF6] px-8 py-24">
+      <div className="mx-auto flex max-w-7xl flex-col items-center text-center">
+
+        <h2 className="font-serif text-5xl font-semibold text-[#4D97E8]">
+          Why Legacy At Home Care?
         </h2>
 
-        <div className="mt-12 grid gap-8 md:grid-cols-3">
-          {items.map(([title, text]) => (
-            <div key={title} className="border-t border-white/30 pt-7">
-              <h3 className="font-serif text-3xl">{title}</h3>
-              <p className="mt-3 font-sans leading-7 text-white/80">{text}</p>
+        <p className="mt-8 max-w-3xl text-2xl leading-10 text-[#4D97E8]">
+          We believe home should continue feeling like home.
+          <br />
+          That means honoring routines, favorite meals, quiet mornings,
+          <br />
+          and the little things that bring comfort.
+        </p>
+
+        <div className="mt-16 grid w-full gap-10 md:grid-cols-3">
+
+          {/* Comfort */}
+          <div className="text-center">
+            <div className="relative mx-auto h-64 w-full max-w-sm overflow-hidden rounded-3xl shadow-lg">
+              <Image
+                src="/images/comfort.jpg"
+                alt="Comfort"
+                fill
+                className="object-cover"
+              />
             </div>
-          ))}
+
+            <h3 className="mt-6 font-serif text-4xl font-semibold text-[#C8891D]">
+              Comfort
+            </h3>
+
+            <p className="mt-2 text-lg text-[#C8891D]">
+              Support that respects familiar routines.
+            </p>
+          </div>
+
+          {/* Trust */}
+          <div className="text-center">
+            <div className="relative mx-auto h-64 w-full max-w-sm overflow-hidden rounded-3xl shadow-lg">
+              <Image
+                src="/images/trust.jpg"
+                alt="Trust"
+                fill
+                className="object-cover"
+              />
+            </div>
+
+            <h3 className="mt-6 font-serif text-4xl font-semibold text-[#C8891D]">
+              Trust
+            </h3>
+
+            <p className="mt-2 text-lg text-[#C8891D]">
+              Caregivers who feel steady, kind, and reliable.
+            </p>
+          </div>
+
+          {/* Relief */}
+          <div className="text-center">
+            <div className="relative mx-auto h-64 w-full max-w-sm overflow-hidden rounded-3xl shadow-lg">
+              <Image
+                src="/images/relief.jpg"
+                alt="Relief"
+                fill
+                className="object-cover"
+              />
+            </div>
+
+            <h3 className="mt-6 font-serif text-4xl font-semibold text-[#C8891D]">
+              Relief
+            </h3>
+
+            <p className="mt-2 text-lg text-[#C8891D]">
+              Peace of mind for family caregivers who need rest.
+            </p>
+          </div>
+
         </div>
+
       </div>
     </section>
   );

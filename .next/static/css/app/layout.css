@@ -946,6 +946,9 @@ video {
 .mt-9 {
   margin-top: 2.25rem;
 }
+.mt-16 {
+  margin-top: 4rem;
+}
 .flex {
   display: flex;
 }
@@ -972,6 +975,9 @@ video {
 }
 .h-auto {
   height: auto;
+}
+.h-64 {
+  height: 16rem;
 }
 .min-h-36 {
   min-height: 9rem;
@@ -1011,6 +1017,12 @@ video {
 }
 .max-w-xl {
   max-width: 36rem;
+}
+.max-w-6xl {
+  max-width: 72rem;
+}
+.max-w-sm {
+  max-width: 24rem;
 }
 .shrink-0 {
   flex-shrink: 0;
@@ -1133,6 +1145,19 @@ video {
 .bg-white\/85 {
   background-color: rgb(255 255 255 / 0.85);
 }
+.bg-\[\#4D97E8\]\/5 {
+  background-color: rgb(77 151 232 / 0.05);
+}
+.bg-\[\#4D97E8\]\/50 {
+  background-color: rgb(77 151 232 / 0.5);
+}
+.bg-\[\#\] {
+  background-color: #;
+}
+.bg-\[\#FFFDF6\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 253 246 / var(--tw-bg-opacity, 1));
+}
 .bg-\[radial-gradient\(circle_at_30\%_20\%\2c rgba\(230\2c 209\2c 154\2c 0\.85\)\2c transparent_32\%\)\2c linear-gradient\(135deg\2c rgba\(166\2c 176\2c 155\2c 0\.7\)\2c rgba\(247\2c 243\2c 235\2c 0\.85\)_45\%\2c rgba\(140\2c 106\2c 74\2c 0\.35\)\)\] {
   background-image: radial-gradient(circle at 30% 20%,rgba(230,209,154,0.85),transparent 32%),linear-gradient(135deg,rgba(166,176,155,0.7),rgba(247,243,235,0.85) 45%,rgba(140,106,74,0.35));
 }
@@ -1230,6 +1255,10 @@ video {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .pt-7 {
   padding-top: 1.75rem;
 }
@@ -1270,11 +1299,22 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
 .font-medium {
   font-weight: 500;
 }
 .font-semibold {
   font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
 }
 .uppercase {
   text-transform: uppercase;
@@ -1293,6 +1333,9 @@ video {
 }
 .leading-tight {
   line-height: 1.25;
+}
+.leading-10 {
+  line-height: 2.5rem;
 }
 .tracking-\[0\.25em\] {
   letter-spacing: 0.25em;
@@ -1339,6 +1382,14 @@ video {
 .text-\[\#000000\] {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+.text-\[\#FFFDF6\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 253 246 / var(--tw-text-opacity, 1));
+}
+.text-\[\#C8891D\] {
+  --tw-text-opacity: 1;
+  color: rgb(200 137 29 / var(--tw-text-opacity, 1));
 }
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -1504,6 +1555,10 @@ a {
 
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
