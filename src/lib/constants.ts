@@ -1,8 +1,8 @@
 export const site = {
   name: "Legacy At Home Care",
-  phone: "(262) 555-0147",
-  email: "hello@legacyathomecare.com",
-  serviceArea: "Waukesha and Southeastern Wisconsin"
+  phone: "(262) 470-8044",
+  email: "info@legacyathomecare.com",
+  serviceArea: "Waukesha and Greater Milwaukee, Wisconsin"
 };
 
 export const navItems = [

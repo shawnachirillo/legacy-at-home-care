@@ -9,12 +9,11 @@ export default function Benefits() {
           Why Legacy At Home Care?
         </h2>
 
-        <p className="mt-8 max-w-3xl text-2xl leading-10 text-[#4D97E8]">
-          We believe home should continue feeling like home.
-          <br />
-          That means honoring routines, favorite meals, quiet mornings,
-          <br />
-          and the little things that bring comfort.
+        <p className="mt-8 max-w-3xl text-lg leading-10 text-[#4D97E8]">
+          We believe home care should continue feeling like home.
+          
+          That means honoring routines, favorite meals, and quiet mornings.
+         
         </p>
 
         <div className="mt-16 grid w-full gap-10 md:grid-cols-3">
@@ -48,6 +47,7 @@ export default function Benefits() {
                 fill
                 className="object-cover"
               />
+               
             </div>
 
             <h3 className="mt-6 font-serif text-4xl font-semibold text-[#C8891D]">
@@ -80,7 +80,13 @@ export default function Benefits() {
           </div>
 
         </div>
-
+        <Image
+        src="/images/benefits_quote.png"
+        alt="Quote"
+        width={900}
+        height={250}
+        className="mt-8 w-full max-w-2xl h-auto"
+      />
       </div>
     </section>
   );
