@@ -13,7 +13,7 @@ export default function ServicesPreview() {
 
       <div className="relative mx-auto max-w-7xl">
         <p className="font-sans text-sm font-semibold uppercase tracking-[0.28em] text-[#4D97E8]">
-          Services
+         
         </p>
 
         <h2 className="mt-3 max-w-3xl font-serif text-4xl font-semibold leading-tight text-[#2F4A35] md:text-5xl">

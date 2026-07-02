@@ -12,7 +12,11 @@ export default function Button({
 }) {
   const classes =
     variant === "primary"
-      ? "bg-[#4D97E8] text-white hover:bg-[#3d4a3d]"
+      ? "bg-[#9CCB3B] text-white hover:bg-[#f4d55b]"
+      : "border border-[#4D97E8]/40 bg-white text-[#4D97E8] hover:bg-white";
+
+      variant === "secondary"
+      ? "bg-white text-[#4D97E8] hover:bg-[#9CCB3B]"
       : "border border-[#4D97E8]/40 bg-white text-[#4D97E8] hover:bg-white";
 
   return (
