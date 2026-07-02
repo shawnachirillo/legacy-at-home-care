@@ -9,7 +9,7 @@ export default function Benefits() {
           Why Legacy At Home Care?
         </h2>
 
-        <p className="mt-8 max-w-3xl text-lg leading-10 text-[#4D97E8]">
+        <p className="mt-8 max-w-3xl text-lg leading-10 text-[#26382B]">
           We believe home care should continue feeling like home.
           
           That means honoring routines, favorite meals, and quiet mornings.

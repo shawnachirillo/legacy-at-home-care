@@ -11,7 +11,7 @@ export default function ContactCTA() {
             Let’s talk about what kind of care feels right for your loved one.
           </h2>
 
-          <p className="mt-6 font-sans text-lg leading-8  text-[#4D97E8]">
+          <p className="mt-6 font-sans text-lg leading-8  text-[#26382B]">
             Tell us what your family needs. We’ll listen first, then help you
             understand what level of support may make sense.
           </p>

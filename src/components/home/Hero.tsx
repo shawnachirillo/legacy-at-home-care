@@ -26,7 +26,7 @@ export default function Hero() {
             Care that feels like home.
           </h1>
 
-          <p className="mt-7 max-w-xl font-sans text-lg leading-8 text-black">
+          <p className="mt-7 max-w-xl font-sans text-lg leading-8 text-[#26382B]">
             Legacy At Home Care helps your loved one stay safe, supported, and
             comfortable in the place they know best — surrounded by familiar
             routines, favorite chairs, clean sheets, morning light, and the quiet

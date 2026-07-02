@@ -32,7 +32,7 @@ export default function Approach() {
         Familiar care, built around the person.
       </h2>
   
-      <div className="mt-8 space-y-6 font-sans text-lg leading-8 text-[#000000]">
+      <div className="mt-8 space-y-6 font-sans text-lg leading-8 text-[#26382B]">
         <p>
           We begin by understanding your loved one’s routines, preferences,
           personality, home environment, and family concerns.

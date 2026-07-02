@@ -1,18 +1,77 @@
+import Image from "next/image";
 import SectionHeading from "@/components/shared/SectionHeading";
 
 export default function AboutPage() {
   return (
-    <main className="px-6 py-20">
-      <div className="mx-auto max-w-5xl">
-        <SectionHeading
-          eyebrow="About"
-          title="Rooted in comfort, dignity, and the familiar feeling of home."
-          text="Legacy At Home Care exists for families who want dependable support without making home feel clinical or unfamiliar."
-        />
-        <div className="mt-12 grid gap-8 font-sans text-lg leading-8 text-[#4D97E8] md:grid-cols-2">
-          <p>We believe care should feel steady, respectful, and personal. The best home care notices the details: the preferred chair, the morning routine, the cup someone likes for tea, the way a room feels after fresh sheets are placed on the bed.</p>
-          <p>Our goal is to help older adults remain connected to the homes, routines, and relationships that give life meaning — while giving families more peace of mind.</p>
-        </div>
+    <main className="bg-[#FFFDF6] px-6 py-20">
+      <div className="mx-auto max-w-6xl">
+
+        {/* Page Header */}
+        <section className="pt-20 pb-20">
+  <h1 className="font-serif text-6xl font-semibold text-[#4D97E8]">
+    About Us
+  </h1>
+</section>
+
+        {/* Mission */}
+        <section className="mb-20">
+  <h2 className="font-serif text-5xl font-semibold leading-tight text-[#4D97E8]">
+    Our Mission:
+  </h2>
+  <p className="mt-4 max-w-5xl font-serif text-3xl font-semibold leading-tight text-[#4D97E8]">
+    To help older adults remain safe, comfortable, and connected in the place
+    they know best—home.
+  </p>
+          <div className="mt-10 max-w-4xl">
+            <p className="text-left font-sans text-lg leading-8 text-[#26382B]">
+              We believe exceptional home care is built on trust, consistency,
+              and genuine relationships. Every visit is an opportunity to
+              preserve independence, honor familiar routines, and bring peace
+              of mind to the families who entrust us with their loved ones.
+            </p>
+          </div>
+        </section>
+
+        {/* Vision */}
+        <section className="mb-24">
+  <h2 className="font-serif text-5xl font-semibold leading-tight text-[#4D97E8]">
+    Our Vision </h2>
+    <p className="mt-4 max-w-5xl font-serif text-3xl font-semibold leading-tight text-[#4D97E8]">
+    A future where aging at home feels natural, dignified, and deeply supported.
+  </p>
+  <div className="mt-10 max-w-4xl">
+            <p className="text-left font-sans text-lg leading-8 text-[#26382B]">
+            We envision communities where older adults continue living
+              meaningful lives surrounded by familiar spaces, treasured
+              routines, and compassionate caregivers who make every day feel a
+              little lighter.
+            </p>
+          </div>
+         
+         
+        </section>
+
+        {/* Values */}
+
+        <section className="mb-24">
+  <h2 className="font-serif text-5xl font-semibold leading-tight text-[#4D97E8]">
+  The Legacy Difference </h2>
+    <p className="mt-4 max-w-5xl font-serif text-3xl font-semibold leading-tight text-[#4D97E8]">
+    Everything we do is guided by a simple belief: great care should feel personal.
+  </p>
+  <div className="mt-10 max-w-4xl">
+            <p className="text-left font-sans text-lg leading-8 text-[#26382B]">
+            We envision communities where older adults continue living
+              meaningful lives surrounded by familiar spaces, treasured
+              routines, and compassionate caregivers who make every day feel a
+              little lighter.
+            </p>
+          </div>
+        </section>
+
+       
+    
+
       </div>
     </main>
   );

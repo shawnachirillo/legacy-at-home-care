@@ -17,12 +17,12 @@ export default function Header() {
     className="h-auto w-[100px] md:w-[120px]"
   />
 </Link>
-        <nav className="hidden items-center gap-8 font-sans text-sm font-medium text-ink lg:flex">
+        <nav className="hidden items-center gap-8 font-sans text-sm font-medium text-[#26382B] lg:flex">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="transition hover:text-[#4D97E8]"
+              className="transition hover:text-[#9CCB3B]"
             >
               {item.label}
             </Link>

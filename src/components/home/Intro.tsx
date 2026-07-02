@@ -24,7 +24,7 @@ export default function Intro() {
         </div>
 
         {/* Text */}
-        <p className="max-w-3xl text-center text-lg leading-8 text-[#4D97E8]">
+        <p className="max-w-3xl text-center text-lg leading-8 text-[#26382B]">
           Home care is not just help with tasks. It is peace of mind. It is
           knowing someone kind is there to prepare a meal, offer a steady hand,
           change the linens, share conversation, and help your loved one move
