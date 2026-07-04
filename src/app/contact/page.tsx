@@ -4,11 +4,11 @@ import { site } from "@/lib/constants";
 
 export default function ContactPage() {
   return (
-    <main className="px-6 py-20">
+    <main className="px-6 pt-40 pb-20">
       <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-2">
         <div>
           <SectionHeading
-            eyebrow="Contact"
+          
             title="Start with a simple care conversation."
             text="Tell us what is happening at home and what kind of support your family may need."
           />

@@ -686,6 +686,7 @@ button,
 input:where([type='button']),
 input:where([type='reset']),
 input:where([type='submit']) {
+  appearance: button; /* Standard property for compatibility */
   -webkit-appearance: button; /* 1 */
   background-color: transparent; /* 2 */
   background-image: none; /* 2 */
@@ -730,6 +731,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
+  appearance: textfield; /* Standard property for compatibility */
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
@@ -859,7 +861,7 @@ iframe,
 embed,
 object {
   display: block; /* 1 */
-  vertical-align: middle; /* 2 */
+  /* Removed vertical-align as it is not applicable with display: block */
 }
 
 /*
@@ -973,6 +975,12 @@ video {
 }
 .mt-5 {
   margin-top: 1.25rem;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mr-16 {
+  margin-right: 4rem;
 }
 .flex {
   display: flex;
@@ -1115,6 +1123,15 @@ video {
 .gap-2 {
   gap: 0.5rem;
 }
+.gap-1 {
+  gap: 0.25rem;
+}
+.gap-20 {
+  gap: 5rem;
+}
+.gap-40 {
+  gap: 10rem;
+}
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1188,7 +1205,7 @@ video {
   border-color: rgb(255 255 255 / 0.7);
 }
 .border-\[\#\] {
-  border-color: #;
+  border-color: #000000;
 }
 .border-\[\#4D97E8\] {
   --tw-border-opacity: 1;
@@ -1222,17 +1239,17 @@ video {
   background-color: rgb(77 151 232 / 0.5);
 }
 .bg-\[\#\] {
-  background-color: #;
+  background-color: #ffffff;
 }
 .bg-\[\#FFFDF6\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 253 246 / var(--tw-bg-opacity, 1));
 }
 .bg-\[\#4\] {
-  background-color: #4;
+  background-color: #444444;
 }
 .bg-\[\] {
-  background-color: ;
+  background-color: transparent;
 }
 .bg-\[4D97E8\] {
   background-color: 4D97E8;
@@ -1423,6 +1440,12 @@ video {
 .pt-6 {
   padding-top: 1.5rem;
 }
+.pt-36 {
+  padding-top: 9rem;
+}
+.pt-60 {
+  padding-top: 15rem;
+}
 .text-left {
   text-align: left;
 }
@@ -1548,10 +1571,10 @@ video {
   color: rgb(255 255 255 / 0.8);
 }
 .text-\[\] {
-  color: ;
+  color: inherit;
 }
 .text-\[\#00000\] {
-  color: #00000;
+  color: #000000;
 }
 .text-\[\#000000\] {
   --tw-text-opacity: 1;
@@ -1570,10 +1593,10 @@ video {
   color: rgb(244 213 91 / var(--tw-text-opacity, 1));
 }
 .text-\[\#4\] {
-  color: #4;
+  color: #444444;
 }
 .text-\[\#\] {
-  color: #;
+  color: #000000;
 }
 .text-\[\#8f5c36\] {
   --tw-text-opacity: 1;
@@ -1686,7 +1709,12 @@ a {
 }
 
 .hover\:bg-\[\#\]:hover {
-  background-color: #;
+  background-color: transparent;
+}
+
+.hover\:bg-\[\#8DB92F\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(141 185 47 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:text-\[\#4D97E8\]:hover {
@@ -1695,11 +1723,11 @@ a {
 }
 
 .hover\:text-\[\#\]:hover {
-  color: #;
+  color: #000000;
 }
 
 .hover\:text-\[\]:hover {
-  color: ;
+  color: inherit;
 }
 
 .hover\:text-\[9CCB3B\]:hover {
@@ -1785,6 +1813,11 @@ a {
 
   .md\:text-7xl {
     font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 }

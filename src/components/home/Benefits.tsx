@@ -29,11 +29,11 @@ export default function Benefits() {
               />
             </div>
 
-            <h3 className="mt-6 font-serif text-4xl font-semibold text-[#C8891D]">
+            <h3 className="mt-6 font-serif text-4xl font-semibold text-[#4D97E8]">
               Comfort
             </h3>
 
-            <p className="mt-2 text-lg text-[#C8891D]">
+            <p className="mt-2 text-lg text-[#26382B]">
               Support that respects familiar routines.
             </p>
           </div>
@@ -50,11 +50,11 @@ export default function Benefits() {
                
             </div>
 
-            <h3 className="mt-6 font-serif text-4xl font-semibold text-[#C8891D]">
+            <h3 className="mt-6 font-serif text-4xl font-semibold text-[#4D97E8]">
               Trust
             </h3>
 
-            <p className="mt-2 text-lg text-[#C8891D]">
+            <p className="mt-2 text-lg text-[#26382B]">
               Caregivers who feel steady, kind, and reliable.
             </p>
           </div>
@@ -70,11 +70,11 @@ export default function Benefits() {
               />
             </div>
 
-            <h3 className="mt-6 font-serif text-4xl font-semibold text-[#C8891D]">
+            <h3 className="mt-6 font-serif text-4xl font-semibold text-[#4D97E8]">
               Relief
             </h3>
 
-            <p className="mt-2 text-lg text-[#C8891D]">
+            <p className="mt-2 text-lg text-[#26382B]">
               Peace of mind for family caregivers who need rest.
             </p>
           </div>
